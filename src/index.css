@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer components {/*This is the way to create the utility class in taiwind css*/
+    .mycontainer {
+        @apply container px-40 py-16 mx-auto ; 
+    }
+}
