@@ -177,7 +177,7 @@ const Manager = () => {
                   <td className='py-2 border border-white text-center'>
                     <div className='flex items-center justify-center'>
                       <span>{item.username}</span>
-                      <div className='lordiconcopy size-7 cursor-pointer' onClick={() => { copyText(item.site) }}>
+                      <div className='lordiconcopy size-7 cursor-pointer' onClick={() => { copyText(item.username) }}>
                         <lord-icon
                           style={{ "width": "25px", "height": "25px", "paddingTop": "3px", "paddingLeft": "3px" }}
                           src="https://cdn.lordicon.com/iykgtsbt.json"
@@ -189,7 +189,7 @@ const Manager = () => {
                   <td className='py-2 border border-white text-center'>
                     <div className='flex items-center justify-center'>
                       <span>{item.password}</span>
-                      <div className='lordiconcopy size-7 cursor-pointer' onClick={() => { copyText(item.site) }}>
+                      <div className='lordiconcopy size-7 cursor-pointer' onClick={() => { copyText(item.password) }}>
                         <lord-icon
                           style={{ "width": "25px", "height": "25px", "paddingTop": "3px", "paddingLeft": "3px" }}
                           src="https://cdn.lordicon.com/iykgtsbt.json"
