@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 I Have created the password manager website using the react.js
-I have used the localstrorage in this project for the database management nad make this more interactive
+I have used the localstrorage in this project for the database management and make this more interactive
 I have also added the features of passowrd hiding,copy of liks and username etc. and save 
 Also i have added the edit and delete option sso that one can change it and if want can delete it. 
 Here are some pictures of that website
